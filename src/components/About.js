@@ -33,7 +33,6 @@ function About(props) {
             {/* Looks like I was listening to INSERT SONG HERE last. */}
           </p>
           <p>
-
             <span className="weight-600">I'm currently looking for Summer 2022 SWE internships!</span>&nbsp;
             {/* Most of my past work experience has been in fullstack and frontend development, and for my next 
             few work terms I'd love to expand my horizons and gain experience in other areas 

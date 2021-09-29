@@ -1,6 +1,7 @@
 import Email from '@mui/icons-material/Email';
 import GitHub from '@mui/icons-material/GitHub';
 import LinkedIn from '@mui/icons-material/LinkedIn';
+import Description from '@mui/icons-material/Description';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
@@ -25,15 +26,15 @@ function Landing(props) {
   const iconSlides = [
     {
       key: "1",
-      content: <img className="icon-above-head" src="over-lightbulb.png" alt="1" />
+      content: <img className="icon-above-head" src="icon-lightbulb.png" alt="1" />
     },
     {
       key: "2",
-      content: <img className="icon-above-head" src="over-questions.png" alt="2" />
+      content: <img className="icon-above-head" src="icon-questions.png" alt="2" />
     },
     {
       key: "3",
-      content: <img className="icon-above-head" src="over-coffee.png" alt="3" />
+      content: <img className="icon-above-head" src="icon-coffee.png" alt="3" />
     },
   ].map((slide, index) => {
     return { ...slide, onClick: () => setIconIndex(index) };
@@ -56,7 +57,7 @@ function Landing(props) {
               </div>
             </Grid>
           <Grid item>
-          <img className="landing-image" src="profile-6.png"></img>
+          <img className="landing-image" src="landing.png"></img>
           </Grid>
           </Grid>
         </Grid>
@@ -92,6 +93,9 @@ function Landing(props) {
                   </Grid>
                   <Grid item>
                     <Link color="#2f3337" target="_blank" href="mailto:anne.chung@uwaterloo.ca"><Email/></Link>
+                  </Grid>
+                  <Grid item>
+                    <Link color="#2f3337" target="_blank" href="AnneChungResumeS22.pdf"><Description/></Link>
                   </Grid>
                 </Grid>
               </Grid>

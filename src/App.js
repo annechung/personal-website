@@ -12,8 +12,8 @@ function App() {
       <NavBar/>
       <Landing/>
       <About/>
-      {/* <Experience/>
-      <Projects/> */}
+      <Experience/>
+      <Projects/>
       <Contact/>
     </div>
   );
