@@ -1,43 +1,55 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import { Link } from 'react-scroll'
+import { Link, scroller } from 'react-scroll'
 
 
 function NavBar(props) {
   return (
     <Navbar bg="primary" expand="lg" fixed="top">
       <Container>
-        <Link to="home" duration={500}>
+        <Nav.Link
+          onClick={() => scroller.scrollTo('home', {
+          offset: -70,
+          duration: 500,
+        })}>
           <Navbar.Brand>
             Anne Chung
           </Navbar.Brand>
-        </Link>
+        </Nav.Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
           </Nav>
           <Nav>
-            <Link to="about" duration={500}>
-              <Nav.Link>
-                About
-              </Nav.Link>
-            </Link>
-            <Link to="experience" duration={500}>
-              <Nav.Link>
-                Experience
-              </Nav.Link>
-            </Link>
-            <Link to="projects" duration={500}>
-              <Nav.Link>
-                Projects
-              </Nav.Link>
-            </Link>
-            <Link to="contact" duration={500}>
-              <Nav.Link>
-                Contact
-              </Nav.Link>
-            </Link>
+            <Nav.Link
+              onClick={() => scroller.scrollTo('about', {
+              offset: -70,
+              duration: 500,
+            })}>
+              About
+            </Nav.Link>
+            <Nav.Link
+              onClick={() => scroller.scrollTo('experience', {
+              offset: -70,
+              duration: 500,
+            })}>
+              Experience
+            </Nav.Link>
+            <Nav.Link
+              onClick={() => scroller.scrollTo('projects', {
+              offset: -70,
+              duration: 500,
+            })}>
+              Projects
+            </Nav.Link>
+            <Nav.Link
+              onClick={() => scroller.scrollTo('contact', {
+              offset: -70,
+              duration: 500,
+            })}>
+              Contact
+            </Nav.Link>
             <Nav.Link target="_blank" href="AnneChungResumeS22.pdf">
               Resume
             </Nav.Link>
