@@ -7,7 +7,7 @@ import Container from '@mui/material/Container'
 
 function Contact(props) {
   return (
-    <div id="contact" className="section text">
+    <div id="contact" className="section">
       <Container>
       <h2 className="section-header"><span className="underline">Let's connect!</span></h2>
       <p>If you have any questions, thoughts or book/music recommendations, shoot me a message! I'd love to chat :)</p>

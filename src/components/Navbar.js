@@ -31,21 +31,21 @@ function NavBar(props) {
             </Nav.Link>
             <Nav.Link
               onClick={() => scroller.scrollTo('experience', {
-              offset: -70,
+              offset: -30,
               duration: 500,
             })}>
               Experience
             </Nav.Link>
             <Nav.Link
               onClick={() => scroller.scrollTo('projects', {
-              offset: -70,
+              offset: -30,
               duration: 500,
             })}>
               Projects
             </Nav.Link>
             <Nav.Link
               onClick={() => scroller.scrollTo('contact', {
-              offset: -70,
+              offset: -30,
               duration: 500,
             })}>
               Contact
