@@ -12,7 +12,7 @@ function ExperienceCard(props) {
           {props.from} - {props.to}
         </Typography>
         <Typography variant="h5" component="div" className="title">
-          {props.logoImgUrl ? <img className="logo" src={props.logoImgUrl} /> : <></>}
+          {props.logoImgUrl ? <img className="logo" src={props.logoImgUrl} alt="company logo"/> : <></>}
           {props.company}
         </Typography>
         <Typography sx={{ mb: 1.5 }} color="text.secondary">

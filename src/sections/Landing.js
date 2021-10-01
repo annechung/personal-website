@@ -5,10 +5,10 @@ import Description from '@mui/icons-material/Description';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState } from 'react';
 import Carousel from "react-spring-3d-carousel";
 import { config } from "react-spring";
-import TextTransition, { presets } from "react-text-transition";
+import TextTransition from "react-text-transition";
 
 
 const textOptions = ["software developer.", "CS student.", "black coffee enthusiast."]
@@ -58,7 +58,7 @@ function Landing(props) {
                 </div>
               </Grid>
               <Grid item>
-                <img className="landing-image" src="landing.png"></img>
+                <img className="landing-image" src="landing.png" alt="profile avatar"></img>
               </Grid>
             </Grid>
           </Grid>

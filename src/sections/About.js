@@ -8,7 +8,7 @@ function About(props) {
         <h2 className="section-header"><span className="underline">About Me</span></h2>
         <Grid container direction="row" rowSpacing={2} columnSpacing={3}>
           <Grid item xs={12} md={4} align="center">
-            <img className="profile-image" src="profile.jpg"></img>
+            <img className="profile-image" src="profile.jpg" alt="profile shot"></img>
           </Grid>
           <Grid item xs={12} md={8}>
             <p className="about-me-text">
@@ -22,7 +22,7 @@ function About(props) {
               I've previously interned at Wish and Heymarket, and I'll be at Salesforce 
               this fall working on new admin tooling features.
               I'm also spending 
-              this term with <a href="https://uwblueprint.org/" target="_blank" className="in-text-link">UW Blueprint</a> working 
+              this term with <a href="https://uwblueprint.org/" target="_blank" rel="noreferrer" className="in-text-link">UW Blueprint</a> working 
               on building tech for a non-profit, Community Fridge.
             </p>
             <p>
