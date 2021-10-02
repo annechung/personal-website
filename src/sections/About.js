@@ -1,5 +1,6 @@
 import Grid from '@mui/material/Grid'
 import Container from '@mui/material/Container'
+import Link from '@mui/material/Link';
 
 function About(props) {
   return (
@@ -22,7 +23,7 @@ function About(props) {
               I've previously interned at Wish and Heymarket, and I'll be at Salesforce 
               this fall working on new admin tooling features.
               I'm also spending 
-              this term with <a href="https://uwblueprint.org/" target="_blank" rel="noreferrer" className="in-text-link">UW Blueprint</a> working 
+              this term with <Link href="https://uwblueprint.org/" target="_blank" rel="noreferrer" className="in-text-link">UW Blueprint</Link> working 
               on building tech for a non-profit, Community Fridge.
             </p>
             <p>

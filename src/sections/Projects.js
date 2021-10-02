@@ -13,33 +13,31 @@ function Projects(props) {
               header="Ongoing"
               title="Community Fridge"
               githubLink="https://github.com/uwblueprint/community-fridge-kw"
-              description="Scheduling platform for better management of food drop-offs and volunteer sign-ups."
-              skills="Typescript, Express.js, PostgreSQL, Sequelize"
+              description="Scheduling platform for managing food drop-offs and volunteers."
+              skills="Typescript, Express.js, PostgreSQL"
             />
           </Grid>
           <Grid item xs={12} sm={4}>
             <ProjectCard
               title="MMR"
               githubLink="https://github.com/SimonZhang0606/Coop_MMR"
-              description="Coop review platform where UWaterloo students can rank jobs and view company details
-              like average salary and ratings."
-              skills="Javascript, React, Python, Flask, MySQL"
+              description="Coop review platform for UWaterloo students."
+              skills="React, Python, Flask, MySQL"
             />
           </Grid>
           <Grid item xs={12} sm={4}>
             <ProjectCard
               title="Parrot"
               githubLink="https://github.com/rachel133199/Parrot"
-              description="Web app for practicing pronunciation. Scores user's pronunciation and recommends new words to practice 
-              based on commonly mispronounced syllables."
+              description="Web app for practicing pronunciation. Scores user's pronunciation and recommends new words to practice."
               skills="React, Python, Flask"
             />
           </Grid>
           <Grid item xs={12} sm={4}>
             <ProjectCard
-              title="Chess (OOP course project)"
-              description="Command line chess game with check detection and computer players. Also playable through a graphical
-              user interface."
+              title="Chess"
+              description="Command line chess game with check detection and computer players. 
+              Final project for CS246: Object-Oriented Software Development."
               skills="C++"
             />
           </Grid>
@@ -47,8 +45,7 @@ function Projects(props) {
             <ProjectCard
               title="Safe.net"
               githubLink="https://github.com/annechung/Safe.net"
-              description="Parental control chrome extension which
-               blocks entry of personal information until permission is granted for the site.
+              description="Parental control chrome extension.
                Awarded 1st place hack at CitizenHacks."
               skills="Javascript, React, Firebase"
             />

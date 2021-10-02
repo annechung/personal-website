@@ -1,16 +1,10 @@
 .project-card {
-  height: 225px;
-  position: relative;
+  min-height: 200px;
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   .project-card {
     min-height: 200px;
     height: 300px;
   }
-}
-
-.skillset {
-  position: absolute;
-  bottom: 20px;
-}
+} */
