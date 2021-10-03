@@ -41,11 +41,12 @@ function ExperienceCard(props) {
         <Typography sx={{ mb: 1.5 }} color="text.secondary">
           {props.position}
         </Typography>
-        <Typography variant="body2">
-          {props.headline}
-        </Typography>
+        <Collapse in={!expanded} timeout="auto" unmountOnExit>
+          <Typography variant="body2">
+            {props.headline}
+          </Typography>
+        </Collapse>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <br></br>
         <Typography variant="body2">
           {props.description}
         </Typography>

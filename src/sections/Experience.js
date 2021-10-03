@@ -25,18 +25,18 @@ const descriptions = {
     A highlight of this internship for me was owning the development of an entire new surveys section of the app!
     It was my first time having free reigns over a project at work as opposed to having 
     guidelines or tasks created for me, and from this experience I
-    learned to take iniative and how to drive a project from start to finish.
+    learned to take iniative and drive a project from start to finish.
     <br></br><br></br>
-    I also learned about the process of building a customer-facing feature, taking my features from 
+    I also learned about the process of building a customer-facing feature and taking features from 
     design to beta to production! 
   </>,
 
   Wish: 
   <>
-    I worked on an experimentation framework that was used to run A/B tests on Wish.
+    I worked on an experimentation framework that was used to run A/B tests on the Wish apps.
     One larger feature I worked on was adding Decider Key support to our framework,
-     which were essentially feature toggle objects
-    that could be used to turn features on/off or ramp up traffic to a feature.
+    which is essentially a feature toggle
+    that can be used to turn features on/off or ramp up traffic to a feature.
     This involved working along the whole stack from the database to the backend to the UI .
     <br></br><br></br>
     From working in Platform Services I was introduced to the various focuses of Infrastructure engineering and 
