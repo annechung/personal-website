@@ -9,12 +9,13 @@
   width: 60%;
 }
 
-.project-card-title {
-  display: flex;
-  justify-content: space-between;
-}
-
 .project-card .skillset {
   position: absolute;
   bottom: 40px;
+}
+
+.project-card .github {
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
