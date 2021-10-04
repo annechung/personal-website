@@ -8,7 +8,7 @@ function Projects(props) {
       <Container>
       <h2 className="section-header"><span className="underline">Projects</span></h2>
       <Grid container columnSpacing={2} rowSpacing={2}>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <ProjectCard
               header="Ongoing"
               title="Community Fridge"
@@ -17,40 +17,38 @@ function Projects(props) {
               skills="Typescript, Express.js, PostgreSQL"
             />
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <ProjectCard
-              title="MMR"
+              title="Co-op MMR"
               githubLink="https://github.com/SimonZhang0606/Coop_MMR"
-              description="Coop review platform for UWaterloo students."
+              description="Coop review platform for UWaterloo students. Assigns each company an MMR value."
               skills="React, Python, Flask, MySQL"
             />
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <ProjectCard
               title="Parrot"
               githubLink="https://github.com/rachel133199/Parrot"
-              description="Web app for practicing pronunciation. Scores user's pronunciation and recommends new words to practice."
+              description="Web app for practicing pronunciation. Scores user's pronunciation and recommends other words to practice."
               skills="React, Python, Flask"
             />
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <ProjectCard
               title="Chess"
-              description="Command line chess game with check detection and computer players. 
-              Final project for CS246: Object-Oriented Software Development."
+              description="Command line chess game with check detection and computer players. CS246 final course project."
               skills="C++"
             />
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <ProjectCard
               title="Safe.net"
               githubLink="https://github.com/annechung/Safe.net"
-              description="Parental control chrome extension.
-               Awarded 1st place hack at CitizenHacks."
+              description="Parental control chrome extension + app. Awarded 1st place hack at Citizenhacks."
               skills="Javascript, React, Firebase"
             />
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <ProjectCard
               title="Waterloo Rush"
               githubLink="https://github.com/annechung/waterloo-rush-unity"
