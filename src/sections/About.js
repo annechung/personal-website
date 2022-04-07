@@ -14,7 +14,7 @@ function About(props) {
           <Grid item xs={12} md={8}>
             <p className="about-me-text">
               🎓 Computer Science at University of Waterloo (Class of 2023)<br></br>
-              🏢 SWE Intern at Salesforce <br></br>
+              🏢 Incoming SWE Intern @ Meta <br></br>
               📍 Waterloo, ON <br></br>
             </p>
             <p>
