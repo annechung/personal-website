@@ -1,10 +1,7 @@
 import "./App.css";
-import NavBar from "./components/Navbar";
-import Landing from "./sections/Landing";
 import About from "./sections/About";
 import Experience from "./sections/Experience";
 import Projects from "./sections/Projects";
-import Contact from "./sections/Contact";
 import { ThemeProvider } from "@mui/material/styles";
 import { createTheme } from "@mui/material/styles";
 
@@ -18,7 +15,6 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-        {/* <NavBar /> */}
         <About />
         <Experience />
         <Projects />
